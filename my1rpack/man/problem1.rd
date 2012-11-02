@@ -1,9 +1,9 @@
 \name{Problem 1}
 \alias{Homeworkset 2}
-\title{}
+\title{zichan}
 \description{This function compiled to generated a "line" plot of standard normal density(ie., dnorm) over the user defined interval. PDF file is gernerated containing that plot.}
 \usage{
-function(filename,fcnname,LRrange,nsample,compile)
+function(Zichan,fcnname,LRrange,nsample,compile)
 }
 
 \arguments{

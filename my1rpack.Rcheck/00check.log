@@ -1,0 +1,15 @@
+* using log directory 'C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck'
+* using R version 2.15.1 (2012-06-22)
+* using platform: x86_64-pc-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'my1rpack/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'my1rpack' version '1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking whether package 'my1rpack' can be installed ... ERROR
+Installation failed.
+See 'C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck/00install.out' for details.

@@ -1,0 +1,13 @@
+* installing *source* package 'my1rpack' ...
+** R
+** data
+** preparing package for lazy loading
+** help
+Warning: C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck/00_pkg_src/my1rpack/man/my1rpack-package.Rd:33: All text must be in a section
+Warning: C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck/00_pkg_src/my1rpack/man/my1rpack-package.Rd:34: All text must be in a section
+*** installing help indices
+Error in Rd_info(db[[i]]) : 
+  missing/empty \title field in 'C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck/00_pkg_src/my1rpack/man/problem1.rd'
+Rd files must have a non-empty \title.
+See chapter 'Writing R documentation' in manual 'Writing R Extensions'.
+* removing 'C:/Users/Zichan/zichanwang.git/my1rpack.Rcheck/my1rpack'
