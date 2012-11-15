@@ -1,16 +1,16 @@
+require(tikzDevice)
 problem1<-function(filename=NULL,fcnname=NULL,LRrange=NULL,nsample=NULL,compile=NULL)
 {
-  outputtexfile=paste(filename,".tex",sep="") 
-  tikz(outputtexfile,standAlone=TRUE)
-  xbeg=LRrange[1]
-  xend=LRrange[2]
-  xval=seq(xbeg,xend,length=nsample)
+  xval=seq(LRrange[1],LRrange[2],length=nsample)
   yval=fcnname(xval)
-  plot(xval,yval,type="l",xlab ="x", ylab="dnorm(x)")  
+  outputtexfile=paste(filename,'.tex',sep="") 
+  tikz(file=outputtexfile,standAlone=TRUE)
+  plot(xval,yval,xlab ='$\\verb+x+$', ylab='$\\verb+dnorm(x)+$',type='l')  
   dev.off()
   
   
-  if(compile)
+  if(compile==TRUE)
     tools::texi2pdf(outputtexfile)
+  end
   
 }

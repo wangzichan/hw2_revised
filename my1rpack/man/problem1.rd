@@ -14,12 +14,11 @@ function(Zichan,fcnname,LRrange,nsample,compile)
   \item{compile}{generate a pdf file if TRUE(1) value is passed to this variable}
 }
 \value{This function returns no values}
-\author{Hua Hua email:hhua1@jhu.edu}
+\author{Zichan Wang email:zichan.wang@gmail.com}
 \note{This function is the solution to the problem1 of homeworkset2 of class 550400}
 
 \examples{
 require(tikzDevice)
-YesNo<-1
-problem1('bmw1Series',dnorm,c(-5,5),10,YesNo) 
+problem1('bmw1Series',dnorm,c(-5,5),10,1) 
 
 }
